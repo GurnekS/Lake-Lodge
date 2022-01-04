@@ -1,0 +1,185 @@
+﻿/*CSS stylesheet for lakescape lodge assigment 2
+    author: Gurnek Singh
+    7/29/21
+    this stylesheet is trying to create a replica of the lakescape lodge website
+ */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
+
+/*set background color*/
+html {
+    background-color: #7aa6be;
+}
+
+/* sets color for right collum*/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    background-color: rgb(108, 75, 62);
+}
+
+header, footer {
+    background-color: rgb(24, 54, 66);
+}
+
+h2 {
+    font-family: "Nunito", serif;
+
+}
+
+h3 {
+    font-family: "Open Sans", serif;
+    font-weight: revert;
+}
+
+section > h1 {
+    font-family: "Open Sans Condensed", serif;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+footer {
+    font-family: "Open Sans", serif;
+    font-size: 1.2em;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fffff2;
+}
+
+/*move everything in the section to the right*/
+section > img, #leftcol > p, h1 {
+    padding-left: 25px;
+}
+
+#leftcol > p {
+    font-family: 'Nunito', sans-serif;
+    padding-left: 44px;
+    padding-right: 18px;
+}
+
+#leftcol {
+    background-color: #d4cdbb;
+}
+
+/*add border to the events box*/
+#events {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #6a88bf;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    font-size: 1em;
+}
+
+/*add border to the notes box and move right*/
+section#leftcol aside#notes {
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #00a576;
+    margin-left: 44px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+/* change discover door country cite element to white and underline it*/
+cite > a {
+    color: white;
+}
+
+/* changes the top navigation menu texts to white*/
+nav > ul > li > a {
+    /*color: #fffff2;*/
+    text-decoration-line: none;
+    margin: 3px;
+}
+
+/*get rid of bullet points on right collum*/
+#rightcol > ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+/*changes right colum text to white*/
+#rightcol > ul > li > a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    /*color: #fffff2;*/
+    text-decoration-line: none;
+}
+
+/* bold the right colum text*/
+#rightcol > ul > li:first-of-type {
+    font-weight: bold;
+}
+
+#rightcol > h2 {
+    margin-bottom: 0;
+    color: #dbd6c3;
+    font-size: 2.4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#rightcol {
+    padding-right: 15px;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-family: "Open Sans", sans-serif;
+    font-size: .9em;
+    line-height: 1.6;
+    margin: 0;
+    color: #fffff2;
+}
+
+/* underline and change Facebook and Youtube Channel to white*/
+#notes > ul > li > a {
+    color: white;
+}
+
+aside > ul {
+    list-style: square;
+    font-size: .9em;
+}
+
+/*here im setting the title texts in the mini boxes to be spaced out*/
+#notes > h2 {
+    margin-left: 24px;
+}
+
+/* events text move to right*/
+#events > h2, h3 {
+
+    margin-left: 18px;
+
+}
+
+#events > p {
+    margin-left: 50px;
+    font-size: .9em;
+}
+
+/* link highlights */
+li > a:link {
+    color: white;
+}
+
+li > a:visited {
+    color: white;
+}
+
+li > a:hover {
+    color: orange;
+}
+
+li > a:active {
+    color: white;
+}
+
